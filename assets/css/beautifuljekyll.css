@@ -1123,4 +1123,6 @@ pre {
   #nav-search-text {
     display: inline-block;
   }
+  body {
+    background-color: #F9F7F1; /* Cream color */
 }
