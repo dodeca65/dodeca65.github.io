@@ -49,3 +49,23 @@ use-site-title: true
   </div>
 
 </div>
+<style>
+  /* Target only mobile screens */
+  @media (max-width: 768px) {
+    /* Prevent the columns from wrapping prematurely */
+    .mobile-columns {
+      flex-wrap: nowrap !important; 
+      gap: 10px !important; /* Reduce the space between columns */
+    }
+    
+    /* Make the text smaller and tighter so it fits on one line */
+    .mobile-columns ul {
+      font-size: 0.85em !important; 
+      padding-left: 0 !important;
+    }
+    
+    .mobile-columns li {
+      white-space: nowrap; /* Force the text to stay on one line */
+    }
+  }
+</style>
